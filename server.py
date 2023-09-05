@@ -40,38 +40,6 @@ def submit_form():
     else:
         return 'something went wrong. Try again!'
 
-
-
-
-# @app.route('/contact.html')
-# def contact():
-#     return render_template('contact.html')
-
-# @app.route('/thankyou.html')
-# def thankyou():
-#     return render_template('thankyou.html')
-
-# @app.route('/work.html')
-# def work():
-#     return render_template('work.html')
-
-# @app.route('/works.html')
-# def works():
-#     return render_template('works.html')
-
-
-# @app.route('/about.html')
-# def about():
-#     return render_template('about.html')
-
-
-# @app.route('/blog')
-# def blog():
-#     return 'This is my Blog'
-
-# @app.route('/blog/2020')
-# def blog1():
-#     return 'This is my Bharati'
 app.run()
 
 
